@@ -24,3 +24,23 @@
 |_p1.py_| Create my game surface,game loop and drawing. |
 |_p2.py_| Blit text, font, sound and image objects.  |
 |_FEED.py_| Getting user keyboard and collision dection. |
+
+### Code snippet
+```python
+#Create game display
+WINDOW_WIDTH, WINDOW_HEIGHT = 1200, 600
+displayscreen = pygame.display.set_mode((WINDOW_WIDTH,WINDOW_HEIGHT))
+pygame.display.set_caption("Feed the Angry Bird!")
+
+```
+```python
+#Blit image obkect and settings its rec.
+player_image = pygame.image.load("angry_bird.png")
+player_rect = player_image.get_rect()
+player_rect.left = 32
+player_rect.centery = WINDOW_HEIGHT//2
+displayscreen.blit(player_image,player_rect)
+```
+### Game Assets:
+  * [Icon Archive:](https://iconnarchive.com/)網站提供很多遊戲角色下載
+  * [Leshy SFMaker:](https://www.leshylabs.com/apps/sfMaker/)網站可以下載遊戲特效，也可以簡單自己製作音效
