@@ -1,8 +1,8 @@
 # Python_game: 利用pygame module自己創造的小遊戲
 
 ### 參考資料
- * Pygame Page: http://pygame.org
- * documentation: http://pygame.org/docs/ref/
+  1.Pygame Page: http://pygame.org
+  2.documentation: http://pygame.org/docs/ref/
  -----------
 
 * What is Pygame:
