@@ -44,6 +44,7 @@ displayscreen.blit(player_image,player_rect)
 ### Game Assets:
   * [Icon Archive:](https://iconnarchive.com/)網站提供很多遊戲角色下載
   * [Leshy SFMaker:](https://www.leshylabs.com/apps/sfMaker/)網站可以下載遊戲特效，也可以簡單自己製作音效
-![2.py]（https://raw.githubusercontent.com/jef3364/Python_game/main/%E6%88%AA%E5%9C%96.png）
- ------------
- ------------
+ 
+![2.py](https://raw.githubusercontent.com/jef3364/Python_game/main/%E6%88%AA%E5%9C%96.png)
+
+
